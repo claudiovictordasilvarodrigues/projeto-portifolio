@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* configuração de screen diferentes*/
+
+/*versão impressa */
+@media print {
+
+}
+ /* versão para tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/*versão para desktop */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+}
+
+/* versão para grandes telas */
+@media screen and (min-width: 1200px) {
+    body {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+}
