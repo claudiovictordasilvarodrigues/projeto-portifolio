@@ -27,7 +27,7 @@ body {
 .header-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: linear-gradient(to bottom, #404040af ,#a6a6a6b4);
+    background-image: linear-gradient(to bottom, var(--font3) , var(--font2));
     height: 10vh;
 }
 .header-content img{
@@ -65,7 +65,7 @@ body {
 
 .main-contant h1 {
     color: var(--font5);
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 1px 1px var(--font5);
     margin-bottom: 15px;
 }
@@ -73,9 +73,9 @@ body {
 .main-contant p {
     color:var(--font5);
     font-size: 1.2em;
-    text-shadow: 1px 1px 1px var(--font5);
+    text-shadow: 1px 1px 2px var(--font5);
     width: 300px;
-    margin: 20px 100px;
+    margin: 20px 125px;
 }
 
 .rede-social {
