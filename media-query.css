@@ -18,9 +18,5 @@
 
 /* versão para grandes telas */
 @media screen and (min-width: 1200px) {
-    body {
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-    }
+    
 }
